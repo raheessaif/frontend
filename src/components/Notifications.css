@@ -1,0 +1,33 @@
+.noti-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-container{
+    overflow-y: auto;
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: rgb(204, 191, 191);
+    border-radius: 20px;
+}
+.card{
+    margin-top: 3%;
+    background-color: white;
+    width: 90%;
+    padding: 1%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.card:hover{
+    background-color: rgb(230, 230, 230);
+}
+.card-head{
+    font-size: x-large;
+}
